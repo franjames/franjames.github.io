@@ -1,0 +1,37 @@
+body { font-family: 'Fredericka the Great', cursive;}
+section {background: transparent; height: 100vh; }
+
+h1      { font-size: calc((10vh + 1vw + 1vmin) * 1.00); padding-top: 5vh; }
+.menu   { font-size: calc((5vh + 0.5vw + 0.5vmin) * 1.00); padding-top: 2.5vh; }
+.icons  { font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.75); padding-top: 5vh; }
+h2      { font-size: calc((10vh + 1vw + 1vmin) * 1.00); padding-top: 5vh; }
+
+h1, h2 { font-weight: 400; }
+
+h1, h2 { background: linear-gradient(50deg, #FA6E79 0%, #FFCC33 25%, #40E0D0 50%, #B82C79 75%, #B82C79 100%);
+  -webkit-background-clip: text;-webkit-text-fill-color: transparent; }
+
+.menu, .icons, h1, h2 { margin: 0 auto; text-align: center; align-items: center;}
+
+.menu a { display: block; }
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+a { color: #979AAA; text-decoration: none; transition: all .5s ease-in-out; }
+
+[id="Resume"]:hover    { color: #B82C79; }
+[id="DataSci"]:hover   { color: #FFCC33; }
+[id="Software"]:hover  { color: #2EC2C2; }
+[id="Badges"]:hover    { color: #B82C79; }
+[id="Artwork"]:hover   { color: #FFCC33; }
+[id="Bookshelf"]:hover { color: #2EC2C2; }
+
+[title="GitHub"]:hover   { color: #B82C79; }
+[title="LinkedIn"]:hover { color: #2EC2C2; }
+[title="CodePen"]:hover  { color: #B82C79; }
+[title="Behance"]:hover  { color: #2EC2C2; }
+[title="Contact"]:hover  { color: #FFCC33; }
