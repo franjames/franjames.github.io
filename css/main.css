@@ -1,5 +1,5 @@
 body { font-family: 'Fredericka the Great', cursive; -webkit-font-smoothing: antialiased; }
-section {background: transparent; height: 100vh; }
+section { background: transparent; height: 100vh; bckground-color: color: hsl(230.5, 10.1%, 62.9%, 0.75; }
 
 h1      { font-size: calc((10vh + 1vw + 1vmin) * 1.00); padding-top: 5vh; }
 .menu   { font-size: calc((5vh + 0.5vw + 0.5vmin) * 1.00); padding-top: 2.5vh; }
@@ -21,7 +21,7 @@ h1, h2 { background: linear-gradient(50deg, #FA6E79 0%, #FFCC33 25%, #40E0D0 50%
   width: 50%;
 }
 
-a { color: #979AAA; text-decoration: none; transition: all .5s ease-in-out; }
+a { color: hsl(230.5, 10.1%, 62.9%, 0.25); text-decoration: none; transition: all .5s ease-in-out; }
 
 [id="Resume"]:hover    { color: #B82C79; }
 [id="DataSci"]:hover   { color: #FFCC33; }
