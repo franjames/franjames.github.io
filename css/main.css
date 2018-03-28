@@ -70,7 +70,7 @@ a { color: #979AAA; text-decoration: none; transition: all .5s ease-in-out; }
 
 .modal { position: relative; background: pink; width: 50vh; margin: 0 auto; }
 
-/*Contact Form*/
+/*Contact Form
 
 body {
   font-family: 'Fredericka the Great', cursive; color: white;
@@ -80,9 +80,9 @@ body {
   text-align: center;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
-}
+}*/
 
-h1 { font-weight: 300; font-size: 5vh; }
+h3 { font-weight: 300; font-size: 5vh; }
 
 #contact-form { max-width: 90%; margin: 0 auto; }
 
