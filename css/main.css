@@ -1,5 +1,5 @@
 body { font-family: 'Fredericka the Great', cursive; -webkit-font-smoothing: antialiased; }
-section { background: transparent; height: 100vh; bckground-color: color: hsl(230.5, 10.1%, 62.9%, 0.75; }
+section { background: hsl(230.5, 10.1%, 62.9%, 0.75); height: 100vh; }
 
 h1      { font-size: calc((10vh + 1vw + 1vmin) * 1.00); padding-top: 5vh; }
 .menu   { font-size: calc((5vh + 0.5vw + 0.5vmin) * 1.00); padding-top: 2.5vh; }
