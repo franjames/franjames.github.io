@@ -1,7 +1,7 @@
 body { 
   font-family: 'Fredericka the Great', cursive; 
   -webkit-font-smoothing: antialiased;
-  background-color: hsla(240, 8.6%, 93.1%, 1.00);
+  background-color: hsla(240, 8.6%, 93.1%, 0.00);
 }
 
 section { height: 100vh; }
