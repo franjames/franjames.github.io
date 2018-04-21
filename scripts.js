@@ -5,4 +5,7 @@
 
   $(document).ready(function(){
     $('.modal').modal();
+    instance.open();
+    instance.close();
+    instance.destroy();
   });
