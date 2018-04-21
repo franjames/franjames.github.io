@@ -1,49 +1,40 @@
-body 
-{
+body {
   font-family: 'Montserrat Alternates', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: hsla(240, 8.6%, 93.1%, 0.00);
-}
+  background-color: hsla(240, 8.6%, 93.1%, 0.00); }
 
 section { height: 100vh; }
 
-h1
-{
+h1 {
   font-size: calc((10vh + 1vw + 1vmin) * 1.00);
   padding-top: 5vh;
   font-family: 'Berkshire Swash', cursive;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
-.menu, .material-icons
-{
+.menu, .material-icons {
   font-size: calc((5vh + 0.5vw + 0.5vmin) * 1.00);
-  padding-top: 2.5vh;
-}
+  padding-top: 2.5vh; }
 
-h1
-{
+.material-icons.md-48 { font-size: 48px; }
+
+h1 {
   background: linear-gradient(50deg, #FA6E79 0%, #FFCC33 25%, #40E0D0 50%, #B82C79 75%, #B82C79 100%);
-  -webkit-background-clip: text;-webkit-text-fill-color: transparent;
-}
+  -webkit-background-clip: text;-webkit-text-fill-color: transparent; }
 
 .menu, .icons, h1, h2 { margin: 0 auto; text-align: center; align-items: center;}
 
 .menu a { display: block; }
 
-.icons
-{
+.icons {
   display: flex;
   justify-content: space-between;
-  width: 50%;
-}
+  width: 50%; }
 
 a { color: hsla(230.5, 10.1%, 62.9%, 0.75); text-decoration: none; transition: all .5s ease-in-out; }
 a:active, a:focus { outline: 0; border: none; -moz-outline-style: none }
 
-[id="Resume"]:hover    { color: #B82C79; }
-[id="DataSci"]:hover   { color: #FFCC33; }
-[id="Software"]:hover  { color: #2EC2C2; }
+[id="About"]:hover    { color: #B82C79; }
+[id="Projects"]:hover   { color: #FFCC33; }
 [id="Badges"]:hover    { color: #B82C79; }
 [id="Artwork"]:hover   { color: #FFCC33; }
 [id="Bookshelf"]:hover { color: #2EC2C2; }
