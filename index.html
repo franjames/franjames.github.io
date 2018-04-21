@@ -13,8 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script src="scripts.js"></script>
-            
+  <script src="scripts/modals.js"></script>        
 </head>
 
 <body>
@@ -36,17 +35,16 @@
   
      <!-- Modal Trigger -->
 <a class="waves-effect waves-light btn view" onclick="$('#modal1').modal('open');">View Scores</a>
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal bottom-sheet">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
   </div>
-         
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>         
     
   </section>  
 </body>
