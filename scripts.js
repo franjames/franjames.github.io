@@ -1,5 +1,5 @@
   var elem = document.querySelector('.modal');
-  var instance = M.Modal.init(elem, options);
+  var modal1 = M.Modal.init(elem, options);
 
   // Or with jQuery
 
