@@ -11,6 +11,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat|Montserrat+Alternates" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript">var submitted=false;</script>
+  <script type="text/javascript">
+    $('#gform').on('submit', function(e) {
+    $('#gform *').fadeOut(2000);
+    $('#gform').prepend('Your submission has been processed...');
+    });
+  </script>
+  
 </head>
 
 <body>
@@ -44,11 +54,11 @@
             <p><label for="your-message">And this is my message:</label></p>
             <p><textarea name="your-message entry.114571298" id="your-message entry.114571298" placeholder="[your message]" class="expanding" required></textarea></p>
             <input class="send-button" type="submit" value="Send">&nbsp;
-          </form>          
+          </form>      
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
          </div>
         </div>
       </div>
     </div>
-  
   </body>
 </html>
