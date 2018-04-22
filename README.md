@@ -1,7 +1,13 @@
 # franjames.github.io
-Code for user page
+Code for homepage
 
-Icons from https://simpleicons.org/
-Edited in Inkscape, with textures drawn in Krita.
+Icons:
+https://simpleicons.org/
+https://material.io/icons/
 
-Links to various social media pages and to Google Form for contact.
+Modal:
+https://codepen.io/marv117/details/WvZdGV#forks
+
+Form:
+https://codepen.io/erlenmasson/details/azVZXQ#forks
+https://github.com/toperkin/staticFormEmails/blob/master/README.md
