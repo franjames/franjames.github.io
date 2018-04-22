@@ -1,0 +1,66 @@
+form { color: hsla(230.5, 10.1%, 62.9%, 1); }
+
+h2 { font-weight: 300; font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.5); }
+
+label { font-weight: 400; cursor: pointer; }
+
+textarea, input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.25);
+  color: rgba(4, 0, 0, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(4, 0, 0, 0);
+  box-sizing: border-box;
+  cursor: text;
+  overflow: hidden;
+}
+
+textarea { text-align: center; resize: none; width: 90%; border-color: rgba(4, 0, 0, 0) }
+
+textarea:focus { background-color: rgba(4, 0, 0, 0.2); border: 2px dashed rgba(4, 0, 0, 0); }
+
+textarea:focus:required:valid { border: 2px solid rgba(4, 0, 0, 0); border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
+
+textarea:required:valid { border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
+
+input { border-bottom: 2px dashed rgba(4, 0, 0, 0.5); }
+
+input:required, textarea:required { border-bottom: 2px dashed rgba(4, 0, 0, 0.5); }
+
+input:focus { border-bottom: 2px dashed rgba(4, 0, 0, 1); background-color: rgba(4, 0, 0, 0.2); }
+
+input:required:valid { border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
+
+input:required:invalid { color: rgba(4, 0, 0, 0.5); }
+
+::-webkit-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+
+:-moz-placeholder { /* Firefox 18- */ text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+
+::-moz-placeholder { /* Firefox 19+ */ text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+
+:-ms-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+
+.expanding { vertical-align: top; }
+
+.send-button { background: none; border: none; outline: none; margin: 2vmax; font-weight: 300; }
+
+.send-button:hover { color: #FFCC33; cursor: pointer; }
+
+#linkedin-icon { width: 32px; height: 32px; }
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #63C;
+    background-image: -webkit-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
+    background-image: -moz-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
+    background-image: -ms-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
+    background-image: -o-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
+}
