@@ -5,22 +5,16 @@ h2 { font-weight: 300; font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.5); }
 label { font-weight: 400; cursor: pointer; }
 
 textarea, input {
-  border: none;
-  outline: none;
-  border-radius: 0;
-  text-align: center;
-  font-weight: 700;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.25);
+  text-align: center;
   color: hsla(230.5, 10.1%, 62.9%, 1);
-  border: 2px dashed rgba(4, 0, 0, 0);
+  border: none;
+  outline: none;
   max-width: 90%;
   padding: 1rem;
-  border: none;
-  box-sizing: border-box;
   cursor: text;
   overflow: hidden;
-  text-align: center; 
 }
 
 input { border-bottom: 2px dashed hsla(230.5, 10.1%, 62.9%, 1); }
