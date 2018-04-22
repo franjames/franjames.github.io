@@ -20,9 +20,8 @@ textarea { border-color: rgba(4, 0, 0, 0 ); resize: none; width: 60%; }
 
 input:required, textarea:required { border-bottom: 2px dotted #B82C79; }
 
-textarea:focus { background-color: hsla(230.5, 10.1%, 62.9%, .25); border-bottom: 2px dotted #B82C79; }
-textarea:focus:required:valid { border: 2px solid rgba(4, 0, 0, 0); border-bottom: 2px dotted #2EC2C2; }
-input:focus { border-bottom: 2px dotted #B82C79; background-color: hsla(230.5, 10.1%, 62.9%, 0.25); }
+textarea:focus, input:focus { background-color: hsla(230.5, 10.1%, 62.9%, 0.10); border-bottom: 2px dotted #B82C79; }
+textarea:focus:required:valid, input:focus:required:valid { border-bottom: 2px dotted #2EC2C2; }
 
 textarea:required:valid, input:required:valid { border-bottom: 2px dotted #2EC2C2; }
 
