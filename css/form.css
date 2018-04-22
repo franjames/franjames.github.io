@@ -15,28 +15,21 @@ textarea, input {
   color: hsla(230.5, 10.1%, 62.9%, 1);
   max-width: 90%;
   padding: 1rem;
-  border: 2px dashed rgba(4, 0, 0, 0);
+  border: 2px dashed hsla(230.5, 10.1%, 62.9%, 0);
   box-sizing: border-box;
   cursor: text;
   overflow: hidden;
 }
 
 textarea { text-align: center; resize: none; width: 90%; border-color: rgba(4, 0, 0, 0) }
+textarea:focus { background-color: hsla(230.5, 10.1%, 62.9%, .25); border: 2px dashed rgba(4, 0, 0, 0); }
+textarea:focus:required:valid { border: 2px solid rgba(4, 0, 0, 0); border-bottom: 2px solid hsla(230.5, 10.1%, 62.9%, 1); }
+textarea:required:valid { border-bottom: 2px solid hsla(230.5, 10.1%, 62.9%, 1); }
 
-textarea:focus { background-color: rgba(4, 0, 0, 0.2); border: 2px dashed rgba(4, 0, 0, 0); }
-
-textarea:focus:required:valid { border: 2px solid rgba(4, 0, 0, 0); border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
-
-textarea:required:valid { border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
-
-input { border-bottom: 2px dashed rgba(4, 0, 0, 0.5); }
-
-input:required, textarea:required { border-bottom: 2px dashed rgba(4, 0, 0, 0.5); }
-
-input:focus { border-bottom: 2px dashed rgba(4, 0, 0, 1); background-color: rgba(4, 0, 0, 0.2); }
-
-input:required:valid { border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
-
+input { border-bottom: 2px dashed hsla(230.5, 10.1%, 62.9%, 1); }
+input:required, textarea:required { border-bottom: 2px dashed #B82C79; }
+input:focus { border-bottom: 2px dashed rgba(4, 0, 0, 1); background-color: hsla(230.5, 10.1%, 62.9%, 0.25); }
+input:required:valid { border-bottom: 2px solid hsla(230.5, 10.1%, 62.9%, 1); }
 input:required:invalid { color: hsla(230.5, 10.1%, 62.9%, 0.5); }
 
 .send-button { background: none; border: none; outline: none; margin: 2vmax; }
