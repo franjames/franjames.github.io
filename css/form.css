@@ -26,7 +26,7 @@ textarea:required:valid, input:required:valid { border-bottom: 2px dotted #2EC2C
 
 textarea:required:invalid, input:required:invalid { border-bottom: 2px dotted #B82C79; }
 
-.send-button, .send-button:focus { background: none; border: none; outline: none; margin: 2vmax; }
+.send-button, .send-button:focus { background: none; border: none; outline: none; transition: all .5s ease-in-out; }
 .send-button:hover { color: #FFCC33; cursor: pointer; }
 
 #linkedin-icon { width: 32px; height: 32px; }
