@@ -33,7 +33,7 @@ h1 {
 
 .menu a { display: block; }
 
-#contact-button { position: absolute; left: -999em; opacity: 0; }
+#Contact { position: absolute; left: -999em; opacity: 0; }
 
 a, #Contact { color: hsla(230.5, 10.1%, 62.9%, 0.75); text-decoration: none; transition: all .5s ease-in-out; }
 a:active, a:focus, #Contact:active, #Contact:focus { outline: 0; border: none; -moz-outline-style: none }
