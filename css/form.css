@@ -6,7 +6,6 @@ textarea, input {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.25);
   text-align: center;
-  color: hsla(230.5, 10.1%, 62.9%, 1);
   border: none;
   outline: none;
   max-width: 90%;
@@ -15,8 +14,8 @@ textarea, input {
   overflow: hidden;
 }
 
-input { border-bottom: 2px dashed #B82C79; }
-textarea { resize: none; width: 60%; }
+textarea, input { border-bottom: 2px dotted #B82C79; resize: vertical; }
+textarea { width: 60%; }
 
 input:required, textarea:required { border-bottom: 2px dotted #B82C79; }
 
