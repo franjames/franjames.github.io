@@ -8,22 +8,48 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">       
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat|Montserrat+Alternates" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">      
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="css/resize.js"></script>
 </head>
 
 <body>
 <section>  
   <h1><a href="http://www.franjames.com">Fran James</a></h1>
-  
   <div class="menu">
     <a href="https://www.linkedin.com/in/franjames" target="_blank" id="About">About&nbsp;<i class="material-icons flex">face</i></a>
     <a href="https://github.com/franjames" target="_blank" id="Projects"><i class="material-icons flex">business_center</i>&nbsp;Projects</a>
     <a href="https://www.youracclaim.com/users/fran-james" target="_blank" id="Badges">Badges&nbsp;<i class="material-icons flex">stars</i></a>
     <a href="https://www.behance.net/franjames" target="_blank" id="Artwork"><i class="material-icons flex">palette</i>&nbsp;Artwork</a>
     <a href="https://franjames.libib.com/" target="_blank" id="Bookshelf">Bookshelf&nbsp;<i class="material-icons flex">import_contacts</i></a>
-    <a href="https://goo.gl/forms/u48Rzsa5lToeM7Rn2" target="_blank" title="Contact"><i class="material-icons flex">email</i>&nbsp;Contact</a>
+    <label for="modal-button" title="Contact"><i class="material-icons flex">email</i>&nbsp;OLDContact</label>
+    <a href="https://goo.gl/forms/u48Rzsa5lToeM7Rn2" target="_blank" title="Contact"><i class="material-icons flex">email</i>&nbsp;OLDContact</a>
   </div>      
-    
   </section>    
+  
+  <div class="modal">
+    <input type="checkbox" id="modal-button" class="modal-open" hidden>
+    <div class="modal-wrap">
+      <label for="modal-button" class="modal-overlay"></label>
+      <div class="modal-body">
+        <label for="modal-button" class="modal-close">&times;</label>
+        <input type="radio" name="content-nav" class="modal-radio" checked hidden/>
+        <div class="modal-content">
+          <form id="contact-form"> <!-- Contact form based https://codepen.io/erlenmasson/pen/azVZXQ -->
+            <h2>Connect on Linked<img id="linkedin-icon" src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg"/></h2>
+            <hr><h2><i class="material-icons">comment</i>&nbsp;Send a message<h2>
+            <p><label for="your-name">My name is:</label>
+              <input type="text" name="your-name" id="your-name" minlength="2" placeholder="[your name]" required></p>
+            <p><label for="email">I can be reached at:</label>
+              <input type="email" name="your-email" id="email" placeholder="[your email]" required></p>
+            <p><label for="your-message">And this is my message:</label></p>
+            <p><textarea name="your-message" id="your-message" placeholder="[your message]" class="expanding" required></textarea></p>
+            <p><input class="send-button" type="submit" value="Send"></p>
+          </form>          
+         </div>
+        </div>
+      </div>
+    </div>
+  
   </body>
 </html>
