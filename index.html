@@ -22,16 +22,16 @@
     <a href="https://www.youracclaim.com/users/fran-james" target="_blank" id="Badges">Badges&nbsp;<i class="material-icons flex">stars</i></a>
     <a href="https://www.behance.net/franjames" target="_blank" id="Artwork"><i class="material-icons flex">palette</i>&nbsp;Artwork</a>
     <a href="https://franjames.libib.com/" target="_blank" id="Bookshelf">Bookshelf&nbsp;<i class="material-icons flex">import_contacts</i></a>
-    <label for="modal-button contact-button" title="Contact"><i class="material-icons flex">email</i>&nbsp;Contact</label>
+    <label for="modal-button" title="Contact" class="contact-button"><i class="material-icons flex">email</i>&nbsp;Contact</label>
   </div>      
   </section>    
   
   <div class="modal">
     <input type="checkbox" id="modal-button" class="modal-open" hidden>
     <div class="modal-wrap">
-      <label for="modal-button contact-button" class="modal-overlay"></label>
+      <label for="modal-button" class="modal-overlay"></label>
       <div class="modal-body">
-        <label for="modal-button contact-button" class="modal-close">&times;</label>
+        <label for="modal-button" class="modal-close">&times;</label>
         <input type="radio" name="content-nav" class="modal-radio" checked hidden/>
         <div class="modal-content">
           <form id="contact-form"> <!-- Contact form based https://codepen.io/erlenmasson/pen/azVZXQ -->
@@ -43,7 +43,7 @@
               <input type="email" name="your-email" id="email" placeholder="[your email]" required></p>
             <p><label for="your-message">And this is my message:</label></p>
             <p><textarea name="your-message" id="your-message" placeholder="[your message]" class="expanding" required></textarea></p>
-            <label for="send-button" title="Send" id="Send"></label>
+            <h2><input class="send-button" type="submit" value="Send">&nbsp;</h2>
           </form>          
          </div>
         </div>
