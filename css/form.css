@@ -37,19 +37,19 @@ input:focus { border-bottom: 2px dashed rgba(4, 0, 0, 1); background-color: rgba
 
 input:required:valid { border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
 
-input:required:invalid { color: #2EC2C2; }
+input:required:invalid { color: hsla(230.5, 10.1%, 62.9%, 1); }
 
-::-webkit-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+::-webkit-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; }
 
-:-moz-placeholder { /* Firefox 18- */ text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+:-moz-placeholder { /* Firefox 18- */ text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; }
 
-::-moz-placeholder { /* Firefox 19+ */ text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+::-moz-placeholder { /* Firefox 19+ */ text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; }
 
-:-ms-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
+:-ms-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; }
 
 .expanding { vertical-align: top; }
 
-.send-button { background: none; border: none; outline: none; margin: 2vmax; font-weight: 300; }
+.send-button { background: none; border: none; outline: none; margin: 2vmax; }
 
 .send-button:hover { color: #FFCC33; cursor: pointer; }
 
