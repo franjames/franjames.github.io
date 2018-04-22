@@ -33,8 +33,10 @@ h1 {
 
 .menu a { display: block; }
 
-a, #modal-button { color: hsla(230.5, 10.1%, 62.9%, 0.75); text-decoration: none; transition: all .5s ease-in-out; }
-a:active, a:focus, #modal-button:active, #modal-button:focus { outline: 0; border: none; -moz-outline-style: none }
+#contact-button { position: absolute; left: -999em; opacity: 0; }
+
+a, #contact-button { color: hsla(230.5, 10.1%, 62.9%, 0.75); text-decoration: none; transition: all .5s ease-in-out; }
+a:active, a:focus, #contact-button:active, #contact-button:focus { outline: 0; border: none; -moz-outline-style: none }
 
 [id="About"]:hover    { color: #FFCC33; }
 [id="Projects"]:hover   { color: #B82C79; }
