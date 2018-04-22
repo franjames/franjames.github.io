@@ -27,21 +27,20 @@ textarea:focus:required:valid { border: 2px solid rgba(4, 0, 0, 0); border-botto
 textarea:required:valid { border-bottom: 2px solid hsla(230.5, 10.1%, 62.9%, 1); }
 
 input { border-bottom: 2px dashed hsla(230.5, 10.1%, 62.9%, 1); }
-input:required, textarea:required { border-bottom: 2px dashed #B82C79; }
+input:required, textarea:required { border-bottom: 2px dashed hsla(230.5, 10.1%, 62.9%, 1); }
 input:focus { border-bottom: 2px dashed rgba(4, 0, 0, 1); background-color: hsla(230.5, 10.1%, 62.9%, 0.25); }
 input:required:valid { border-bottom: 2px solid hsla(230.5, 10.1%, 62.9%, 1); }
 input:required:invalid { color: hsla(230.5, 10.1%, 62.9%, 0.5); }
 
-.send-button { background: none; border: none; outline: none; margin: 2vmax; }
+.send-button { font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.25); 
+  background: none; border: none; outline: none; margin: 2vmax; }
 
 .send-button:hover { color: #FFCC33; cursor: pointer; }
 
 #linkedin-icon { width: 32px; height: 32px; }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: #63C;
+    border: 0; height: 1px; background: #63C;
     background-image: -webkit-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
     background-image: -moz-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
     background-image: -ms-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
