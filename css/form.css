@@ -13,8 +13,6 @@ textarea, input {
   padding: 1rem;
   cursor: text;
   overflow: hidden;
-  font-weight: 300;
-  font-style: italic;
 }
 
 textarea, input { border-bottom: 2px dotted #B82C79; resize: vertical; }
@@ -27,6 +25,8 @@ textarea:focus, input:focus { background-color: hsla(230.5, 10.1%, 62.9%, 0.10);
 textarea:required:valid, input:required:valid { border-bottom: 2px dotted #2EC2C2; }
 
 textarea:required:invalid, input:required:invalid { border-bottom: 2px dotted #B82C79; }
+
+placeholder { font-style: italic; }
 
 #Send { background: none; border: none; outline: none; margin: 2vmax; }
 #Send:hover { color: #FFCC33; cursor: pointer; }
