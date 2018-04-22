@@ -29,8 +29,6 @@ textarea:required:invalid, input:required:invalid { border-bottom: 2px dotted #B
 .send-button, .send-button:focus { background: none; border: none; outline: none; transition: all .5s ease-in-out; }
 .send-button:hover { color: #FFCC33; cursor: pointer; }
 
-#linkedin-icon { width: calc((5vh + 0.5vw + 0.5vmin) * 0.25); height: calc((5vh + 0.5vw + 0.5vmin) * 0.25); }
-
 hr {
     border: 0; height: 1px; background: #63C;
     background-image: -webkit-linear-gradient(left, #2EC2C2, #B82C79, #2EC2C2);
