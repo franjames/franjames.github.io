@@ -37,7 +37,7 @@ input:focus { border-bottom: 2px dashed rgba(4, 0, 0, 1); background-color: rgba
 
 input:required:valid { border-bottom: 2px solid rgba(4, 0, 0, 0.2); }
 
-input:required:invalid { color: rgba(4, 0, 0, 0.5); }
+input:required:invalid { color: #2EC2C2; }
 
 ::-webkit-input-placeholder { text-align: center; color: rgba(4, 0, 0, 0.4); font-style: italic; font-weight: 400; }
 
