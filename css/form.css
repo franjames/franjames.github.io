@@ -1,6 +1,6 @@
 form, textarea, input { color: hsla(230.5, 10.1%, 62.9%, 1); font-family: 'Montserrat Alternates', sans-serif; }
 
-h2, send-button { font-size: calc((5vh + 0.5vw + 0.5vmin) * 1); }
+h2, send-button { font-size: calc((5vh + 0.5vw + 0.5vmin) * .25); }
 
 textarea, input {
   font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.25);
