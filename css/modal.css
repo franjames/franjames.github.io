@@ -1,3 +1,5 @@
+#modal-button { position: absolute; left: -999em; opacity: 0; }
+
 .modal-open:checked ~ .modal-wrap { display: block; }
 .modal-open:checked ~ .modal-wrap:before, .modal-open:checked ~ .modal-wrap .modal-overlay { display: block; }
 
