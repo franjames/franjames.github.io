@@ -2,7 +2,6 @@
 Code for homepage
 
 Icons:
-https://simpleicons.org/
 https://material.io/icons/
 
 Modal:
