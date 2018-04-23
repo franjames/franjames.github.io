@@ -3,7 +3,7 @@
 .modal-open:checked ~ .modal-wrap { display: block; }
 .modal-open:checked ~ .modal-wrap:before, .modal-open:checked ~ .modal-wrap .modal-overlay { display: block; }
 
-.modal-close, icon-close {
+.modal-close, .icon-close {
   color: hsla(230.5, 10.1%, 62.9%, 0.75);
   cursor: pointer;
   position: absolute;
