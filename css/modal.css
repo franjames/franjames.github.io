@@ -3,7 +3,7 @@
 .modal-open:checked ~ .modal-wrap { display: block; }
 .modal-open:checked ~ .modal-wrap:before, .modal-open:checked ~ .modal-wrap .modal-overlay { display: block; }
 
-.modal-close, .icon.close {
+.modal-close, .icon-close {
   cursor: pointer;
   position: absolute;
   line-height: 20px;
