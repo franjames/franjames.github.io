@@ -4,11 +4,19 @@
 .modal-open:checked ~ .modal-wrap:before, .modal-open:checked ~ .modal-wrap .modal-overlay { display: block; }
 
 .modal-close {
+  color: hsla(230.5, 10.1%, 62.9%, 0.75);
   cursor: pointer;
   position: absolute;
-  top: 0;
+  top: -1;
   right: 0;
   z-index: 100;
+}
+
+.modal-close:active, .modal-close:focus { 
+  transition: all .5s ease-in-out;
+  outline: 0; border: none;
+  -moz-outline-style: none
+  color: #B82C79;
 }
 
 /* modal */
