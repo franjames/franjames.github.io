@@ -3,23 +3,18 @@
 .modal-open:checked ~ .modal-wrap { display: block; }
 .modal-open:checked ~ .modal-wrap:before, .modal-open:checked ~ .modal-wrap .modal-overlay { display: block; }
 
-.modal-close, .icon-close {
-  color: hsla(230.5, 10.1%, 62.9%, 0.75);
+.modal-close {
   cursor: pointer;
   position: absolute;
   line-height: 20px;
   padding: 10px;
   top: 0;
   right: 0;
-  z-index: 100;
-  transition: all .5s ease-in-out;
+  z-index: 100; 
 }
 
-.modal-close:active, .modal-close:focus, .icon-close:active, .icon-close:focus { 
-  outline: 0; border: none;
-  -moz-outline-style: none;
-  color: #B82C79;
-}
+.icon-close, .icon-close:focus { color: hsla(230.5, 10.1%, 62.9%, 0.75); transition: all .5s ease-in-out; }
+.icon-close:hover { outline: 0; border: none; -moz-outline-style: none; color: #B82C79; }
 
 /* modal */
 .modal-wrap { display: none; }
