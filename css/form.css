@@ -27,7 +27,7 @@ textarea:required:valid, input:required:valid { border-bottom: 2px dotted #2EC2C
 textarea:required:invalid, input:required:invalid { border-bottom: 2px dotted #B82C79; }
 
 .send-button, .send-button:focus { background: none; border: none; outline: none; transition: all .5s ease-in-out; }
-.send-button:hover { color: #FFCC33; cursor: pointer; }
+.send-button:hover { color: #FFCC33; cursor: pointer; outline: 0; border: none; -moz-outline-style: none }
 
 hr {
     border: 0; height: 1px; background: #FFCC33;
