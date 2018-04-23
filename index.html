@@ -12,15 +12,6 @@
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat|Montserrat+Alternates" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your message has been sent. Thank you!');
-  });
-</script>
-  
 </head>
 
 <body>
@@ -55,7 +46,15 @@ $('#gform').on('submit', function(e) {
             <p><label for="message">And this is my message:</label></p>
             <p><textarea name="entry.114571298" id="message" placeholder="[your message]" required></textarea></p>
             <input class="send-button" type="submit" value="Send">&nbsp;
-          </form>      
+          </form>
+          <script src="assets/js/jquery.min.js"></script>
+          <script type="text/javascript">var submitted=false;</script>
+          <script type="text/javascript">
+            $('#gform').on('submit', function(e) {
+            $('#gform *').fadeOut(2000);
+            $('#gform').prepend('Your message has been sent. Thank you!');
+            });
+          </script>
           <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
          </div>
         </div>
