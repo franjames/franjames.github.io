@@ -15,7 +15,7 @@
 .modal-close:active, .modal-close:focus, .icon-close:active, .icon-close:focus { 
   transition: all .5s ease-in-out;
   outline: 0; border: none;
-  -moz-outline-style: none
+  -moz-outline-style: none;
   color: #B82C79;
 }
 
