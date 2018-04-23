@@ -22,7 +22,7 @@
 .modal-wrap:before {
   content: "";
   display: none;
-  background: rgba(0, 0, 0, 0.25);
+  background: hsla(230.5, 10.1%, 62.9%, 0.25);
   position: fixed;
   top: 0;
   left: 0;
