@@ -3,16 +3,16 @@
 .modal-open:checked ~ .modal-wrap { display: block; }
 .modal-open:checked ~ .modal-wrap:before, .modal-open:checked ~ .modal-wrap .modal-overlay { display: block; }
 
-.modal-close {
+.modal-close, icon-close {
   color: hsla(230.5, 10.1%, 62.9%, 0.75);
   cursor: pointer;
   position: absolute;
-  top: -1;
+  top: 0;
   right: 0;
   z-index: 100;
 }
 
-.modal-close:active, .modal-close:focus { 
+.modal-close:active, .modal-close:focus, .icon-close:active, .icon-close:focus { 
   transition: all .5s ease-in-out;
   outline: 0; border: none;
   -moz-outline-style: none
