@@ -42,3 +42,8 @@ a:active, a:focus, .about-button:active, .about-button:focus, .contact-button:ac
 [id="Artwork"]:hover    { color: #B82C79; }
 [id="Bookshelf"]:hover  { color: #2EC2C2; }
 [title="Contact"]:hover { color: #FFCC33; }
+
+[id="Social"], [id="Resume"] { font-style: italic; color: hsla(230.5, 10.1%, 62.9%, 1); text-decoration: none; transition: all .5s ease-in-out; }
+[id="Social"]:active, [id="Social"]:focus [id="Resume"]:active, [id="Resume"]:focus { outline: 0; border: none; -moz-outline-style: none }
+[id="Social"]:hover     { color: #2EC2C2; }
+[id="Resume"]:hover     { color: #2EC2C2; }
