@@ -122,9 +122,13 @@ nav ul > li {
     margin: 0.5em 0;
 }
 
-nav ul a {
-    text-decoration: none;
-}
+nav ul a { color: hsla(230.5, 10.1%, 62.9%, 0.75); text-decoration: none; transition: all .5s ease-in-out; }
 
 nav ul a:hover {
 }
+
+[id="Home"]:hover      { color: #FFCC33; }
+[id="Projects"]:hover   { color: #B82C79; }
+[id="Badges"]:hover     { color: #2EC2C2; }
+[id="Artwork"]:hover    { color: #B82C79; }
+[id="Bookshelf"]:hover  { color: #2EC2C2; }
