@@ -1,7 +1,7 @@
-.proglogic { background-color:  hsla(45%, 80%, 100%, 0.25); }
-.discstruct { background-color: hsla(327%, 61%, 45%, 0.25); }
-.datastruct { background-color: hsla(180%, 62%, 47%, 0.25); }
-.webdev { background-color: hsla(327%, 61%, 45%, 0.25); }
+.item .proglogic { background-color:  hsla(45%, 80%, 100%, 0.25); }
+.item .discstruct { background-color: hsla(327%, 61%, 45%, 0.25); }
+.item .datastruct { background-color: hsla(180%, 62%, 47%, 0.25); }
+.item .webdev { background-color: hsla(327%, 61%, 45%, 0.25); }
 
 .heading { font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.45); padding: 2vh; }
 
