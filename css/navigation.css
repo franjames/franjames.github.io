@@ -7,13 +7,11 @@ nav {
     top: 0;
     width: 100%;
     z-index: 9999;
-    font-family: 'Berkshire Swash', cursive;
     color: hsla(230.5, 10.1%, 62.9%, 0.75);
 }
 
 /*** INPUT ***/
 nav input {
-     font-family: 'Berkshire Swash', cursive;
     opacity: 0;
     position: absolute;
     z-index: -1;
