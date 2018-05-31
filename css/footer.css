@@ -1,3 +1,18 @@
+*, *:before, *:after { box-sizing: border-box; }
+
+html, body {
+  background-color: hsla(240, 8.6%, 93.1%, 0.00);
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#page-title {
+  text-align: center;
+  font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.5);
+    padding-bottom: 2vh;
+}
+
 footer {
   text-align: center;
   font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.25);
