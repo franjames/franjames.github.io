@@ -1,3 +1,8 @@
+#filter-bar {
+  align-items: center;
+  text-align: center;
+}
+
 /* ---- button-group ---- */
 .button-group {
   text-align: center;
