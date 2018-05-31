@@ -19,6 +19,7 @@ nav input {
 
 /*** LABEL ***/
 nav label {
+    font-family: 'Berkshire Swash', cursive;
     cursor: pointer;
     display: block;
     font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.35);
@@ -48,7 +49,7 @@ nav label {
 
 nav label #menu-icon {
     float: right;
-     font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 #menu-icon:before,
