@@ -13,3 +13,6 @@ https://codepen.io/erlenmasson/details/azVZXQ#forks
 Form Processing:
 https://blog.webjeda.com/google-form-customize/
 https://github.com/toperkin/staticFormEmails/blob/master/README.md
+
+Password Protection:
+https://github.com/matteobrusa/Password-protection-for-static-pages
