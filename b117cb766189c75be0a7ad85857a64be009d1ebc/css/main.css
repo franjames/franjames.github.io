@@ -1,0 +1,49 @@
+*, *:before, *:after { box-sizing: border-box; }
+
+html, body {
+  background-color: hsla(240, 8.6%, 93.1%, 0.00);
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section { height: 100vh; }
+
+h1 {
+  font-size: calc((10vh + 1vw + 1vmin) * 1.00);
+  padding-top: 5vh;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: 400;
+}
+
+.menu, .material-icons {
+  font-size: calc((5vh + 0.5vw + 0.5vmin) * 1.00);
+  padding-top: 2.5vh;
+  vertical-align: sub;
+}
+
+.material-icons.flex { font-size: calc((5vh + 0.5vw + 0.5vmin) * 1.00) !important; }
+
+h1 {
+  background: linear-gradient(50deg, #FA6E79 0%, #FFCC33 25%, #40E0D0 50%, #B82C79 75%, #B82C79 100%);
+  -webkit-background-clip: text;-webkit-text-fill-color: transparent;
+}
+
+.menu, h1 { margin: 0 auto; text-align: center; align-items: center; }
+
+.menu a { display: block; }
+
+a, .about-button, .contact-button { color: hsla(230.5, 10.1%, 62.9%, 0.75); text-decoration: none; transition: all .5s ease-in-out; }
+a:active, a:focus, .about-button:active, .about-button:focus, .contact-button:active, .contact-button:focus { outline: 0; border: none; -moz-outline-style: none }
+
+[title="About"]:hover      { color: #FFCC33; }
+[id="Projects"]:hover   { color: #B82C79; }
+[id="Badges"]:hover     { color: #2EC2C2; }
+[id="Artwork"]:hover    { color: #B82C79; }
+[id="Bookshelf"]:hover  { color: #2EC2C2; }
+[title="Contact"]:hover { color: #FFCC33; }
+
+[id="Social"], [id="Resume"] { font-style: italic; color: hsla(230.5, 10.1%, 62.9%, 1); text-decoration: none; transition: all .5s ease-in-out; }
+[id="Social"]:active, [id="Social"]:focus [id="Resume"]:active, [id="Resume"]:focus { outline: 0; border: none; -moz-outline-style: none }
+[id="Social"]:hover     { color: #2EC2C2; }
+[id="Resume"]:hover     { color: #2EC2C2; }
