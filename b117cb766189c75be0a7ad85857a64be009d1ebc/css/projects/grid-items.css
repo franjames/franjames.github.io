@@ -1,0 +1,12 @@
+.item.proglogic { background-color: #FFE8E8; }
+.item.discstruct { background-color: #FFF2E8; }
+.item.datastruct { background-color: #E5FCFB; }
+.item.webdev { background-color: #E7FDE7; }
+
+.heading { font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.45); padding-bottom: 2vh; }
+
+.description { font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.35); padding-bottom: 2vh; }
+
+.exit-button { font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.35); padding-bottom: 2vh; color: hsla(230.5, 10.1%, 62.9%, 0.75); transition: all .5s ease-in-out; }
+
+.exit-button:hover { color: #B82C79; }
