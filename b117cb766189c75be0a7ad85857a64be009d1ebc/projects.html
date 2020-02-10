@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Fran James</title>
+  <title>Projects</title>
   <!-- links to stylesheets -->       
-  <link rel="stylesheet" type="text/css" href="css/common.css"> 
+  <link rel="stylesheet" type="text/css" href="css/main.css"> 
   <link rel="stylesheet" type="text/css" href="css/filters.css"> 
   <link rel="stylesheet" type="text/css" href="css/grid.css"> 
   <link rel="stylesheet" type="text/css" href="css/navigation.css"> 
@@ -27,20 +27,21 @@
     <div id="overlay"></div>
     <ul>
       <li><a href="https://franjames.com" id="Home">Home&nbsp;<i class="material-icons flex">home</i></a></li>
-      <li><a href="https://franjames.com/projects" target="_blank" id="Projects"><i class="material-icons flex">business_center</i>&nbsp;Projects</a></li>
-      <li><a href="https://www.youracclaim.com/users/fran-james" target="_blank" id="Badges">Badges&nbsp;<i class="material-icons flex">stars</i></a></li>
-      <li><a href="https://www.behance.net/franjames" target="_blank" id="Artwork"><i class="material-icons flex">palette</i>&nbsp;Artwork</a></li>
-      <li><a href="https://franjames.libib.com/" target="_blank" id="Bookshelf">Bookshelf&nbsp;<i class="material-icons flex">import_contacts</i></a></li>
+      <li><a href="https://projects.franjames.com" id="Projects"><i class="material-icons flex">business_center</i>&nbsp;Projects</a></li>
+      <li><a href="https://www.youracclaim.com/users/fran-james" id="Badges">Badges&nbsp;<i class="material-icons flex">stars</i></a></li>
+      <li><a href="https://www.behance.net/franjames" id="Artwork"><i class="material-icons flex">palette</i>&nbsp;Artwork</a></li>
+      <li><a href="https://bookshelf.franjames.com/" id="Bookshelf">Bookshelf&nbsp;<i class="material-icons flex">import_contacts</i></a></li>
     </ul>
   </div>
 </nav>
+
 <div id="page-title">Projects</div>
 
-<div id="filter-bar">
-  <div id="search-box"><input type="text" id="quicksearch" placeholder="Search" /></div>
-  <button id="switch">Show Filters</button>
+  <div id="switch-search-bar">
+<div id="search-box"><input type="text" id="quicksearch" placeholder="Search"/></div>
+<button class="button" id="switch">Show Filters</button>
 </div>
-
+  
 <div id="filters" class="button-group">
   <button class="button is-checked" data-filter="*">show all</button>
   <button class="button" data-filter=".proglogic">Programming Logic</button>
@@ -212,7 +213,6 @@
       <a href="https://repl.it/@franjames/Towers-of-Hanoi-Solver-Recursive" target="_blank">
         <i class="material-icons flex exit-button">exit_to_app</i></a>
     </div>
-
     <div class="item discstruct" data-category="discstruct">
       <div class="heading">GCD, Quotient, and Remainder Calculator</div>
       <div class="description">(C++) Receives two numbers from the user, and calculates the GCD, quotient, and remainder.</div>
@@ -222,7 +222,6 @@
     </div>
   </div>
 </div>
-
 <footer>© 2018 Fran James. All rights reserved.</footer>
   
     <!-- links to scripts -->
