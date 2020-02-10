@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bookshelf</title>
+    <!-- links to stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/filters.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/search-box.css">
+    <link rel="stylesheet" type="text/css" href="css/grid-items.css">
+    <link rel="stylesheet" type="text/css" href="css/imagehover.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navigation">
+            <input id="navigation-menu" type="checkbox">
+            <label for="navigation-menu">Fran James<span id="menu-icon"></span></label>
+            <div id="overlay"></div>
+            <ul>
+                <li><a href="https://franjames.com" id="Home">Home&nbsp;<i class="material-icons flex">home</i></a></li>
+                <li><a href="https://projects.franjames.com" id="Projects"><i class="material-icons flex">business_center</i>&nbsp;Projects</a></li>
+                <li><a href="https://www.youracclaim.com/users/fran-james" id="Badges">Badges&nbsp;<i class="material-icons flex">stars</i></a></li>
+                <li><a href="https://www.behance.net/franjames" id="Artwork"><i class="material-icons flex">palette</i>&nbsp;Artwork</a></li>
+                <li><a href="https://bookshelf.franjames.com/" id="Bookshelf">Bookshelf&nbsp;<i class="material-icons flex">import_contacts</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="page-title">Bookshelf</div>
+
+    <div id="switch-search-bar">
+        <div id="search-box"><input type="text" id="quicksearch" placeholder="Search" /></div>
+        <button class="button" id="switch">Show Filters</button>
+    </div>
+
+    <div id="filters" class="button-group">
+        <button class="button is-checked" data-filter="*">show all</button>
+        <button class="button" data-filter=".statistics">Statistics</button>
+        <button class="button" data-filter=".behaviorecon">Behavioral Economics</button>
+        <button class="button" data-filter=".math">Mathematics</button>
+        <button class="button" data-filter=".cs">Computer Science</button>
+        <button class="button" data-filter=".art">Art</button>
+        <button class="button" data-filter=".fitness">Fitness</button>
+        <button class="button" data-filter=".philosophy">Philosophy</button>
+        <button class="button" data-filter=".making">Making</button>
+    </div>
+
+    <div class="content">
+        <div class="grid">
+
+            <div class="item behaviorecon" data-category="behaviorecon">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/ThinkingInBets.jpg">
+                    <figcaption>
+                        <div class="title">Thinking in Bets</div>
+                        <div class="author">Annie Duke</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/VisualDisplay.jpg">
+                    <figcaption>
+                        <div class="title">The Visual Display of Quantitative Information</div>
+                        <div class="author">Edward Tufte</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/GraphicalAnalysis.jpg">
+                    <figcaption>
+                        <div class="title">Graphical Data Analysis with R</div>
+                        <div class="author">Antony Unwin</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/InformationVisualization.jpg">
+                    <figcaption>
+                        <div class="title">Information Visualization : Perception for Design</div>
+                        <div class="author">Colin Ware</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/TruthfulArt.jpg">
+                    <figcaption>
+                        <div class="title">The Truthful Art: Data, Charts, and Maps for Communication</div>
+                        <div class="author">Alberto Cairo</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/GrammarGraphics.jpg">
+                    <figcaption>
+                        <div class="title">The Grammar of Graphics (Statistics and Computing)</div>
+                        <div class="author">Leland Wilkinson</div>
+                    </figcaption>
+                </figure>
+            </div>          
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/VisualizationAnalysisDesign.jpg">
+                    <figcaption>
+                        <div class="title">Visualization Analysis and Design</div>
+                        <div class="author">Tamara Munzner</div>
+                    </figcaption>
+                </figure>
+            </div>    
+           
+            <div class="item behaviorecon" data-category="behaviorecon">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/CalculatedRisks.jpg">
+                    <figcaption>
+                        <div class="title">Calculated Risks</div>
+                        <div class="author">Gerd Gigerenzer</div>
+                    </figcaption>
+                </figure>
+            </div>         
+            
+            <div class="item philosophy" data-category="philosophy">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/AppliedCriticalThinking.jpg">
+                    <figcaption>
+                        <div class="title">Applied Critical Thinking</div>
+                        <div class="author">UFMCS</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item philosophy" data-category="philosophy">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/GroupThinkMitigationGuide.jpg">
+                    <figcaption>
+                        <div class="title">Group Think Mitigation Guide</div>
+                        <div class="author">UFMCS</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item cs" data-category="cs">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/AutomateBoringStuffPython.jpg">
+                    <figcaption>
+                        <div class="title">Automate the Boring Stuff with Python</div>
+                        <div class="author">Al Sweigart</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item cs" data-category="cs">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/CleanCode.jpg">
+                    <figcaption>
+                        <div class="title">Clean Code</div>
+                        <div class="author">Robert C. Martin</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item cs" data-category="cs">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/CPP.jpg">
+                    <figcaption>
+                        <div class="title">C++ Programming: From Program Analysis to Program Design</div>
+                        <div class="author">D.S. Malik</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item philosophy" data-category="philosophy">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/LiberatingStructures.jpg">
+                    <figcaption>
+                        <div class="title">Liberating Structures</div>
+                        <div class="author">UFMCS</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item behaviorecon" data-category="behaviorecon">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/IrrationalBundle.jpg">
+                    <figcaption>
+                        <div class="title">The Irrational Bundle</div>
+                        <div class="author">Dan Arriely</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item math" data-category="math">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/JoyOfX.jpg">
+                    <figcaption>
+                        <div class="title">The Joy of X</div>
+                        <div class="author">Steven Strogatz</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item math" data-category="math">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/GentleArtMath.jpg">
+                    <figcaption>
+                        <div class="title">The Gentle Art of Mathematics</div>
+                        <div class="author">Dan Pedoe</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/OpenIntroStat.jpg">
+                    <figcaption>
+                        <div class="title">Open Intro Statistics</div>
+                        <div class="author">David M. Diez, Christopher D. Barr, Mine Çetinkaya-Rundel</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item art" data-category="art">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/NaturalWayToDraw.jpg">
+                    <figcaption>
+                        <div class="title">The Natural Way to Draw</div>
+                        <div class="author">Kimon Nicolaides</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/TailoredDesign.jpg">
+                    <figcaption>
+                        <div class="title">The Tailored Design Method</div>
+                        <div class="author">Don A. Dillman, Jolene D. Smyth, Leah Melani Christian</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/ElementsStatisticalLearning.jpg">
+                    <figcaption>
+                        <div class="title">The Elements of Statistical Learning</div>
+                        <div class="author">Trevor Hastie, Robert Tibshirani, Jerome Friedman</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/StatisticalSleuth.jpg">
+                    <figcaption>
+                        <div class="title">The Statistical Sleuth</div>
+                        <div class="author">Fred Ramsey, Dan Schafer</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item art" data-category="art">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/KeysDrawing.jpg">
+                    <figcaption>
+                        <div class="title">Keys to Drawing</div>
+                        <div class="author">Bert Dodson</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item art" data-category="art">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/KeysDrawingImagination.jpg">
+                    <figcaption>
+                        <div class="title">Keys to Drawing with Imagination</div>
+                        <div class="author">Bert Dodson</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/MultivariateAnalysis.jpg">
+                    <figcaption>
+                        <div class="title">Methods of Multivariate Analysis</div>
+                        <div class="author">Alvin C. Rencher, William F. Christensen</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item making" data-category="making">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/ToolHammer.jpg">
+                    <figcaption>
+                        <div class="title">Every Tool's a Hammer</div>
+                        <div class="author">Adam Savage</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/Surveys.jpg">
+                    <figcaption>
+                        <div class="title">Internet, Phone, Mail, and Mixed-Mode Surveys: The Tailored Design Method</div>
+                        <div class="author">Don A. Dillman, Jolene D. Smyth, Leah Melani Christian</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/ggplot2.jpg">
+                    <figcaption>
+                        <div class="title">ggplot2: Elegant Graphics for Data Analysis</div>
+                        <div class="author">Hadley Wickham</div>
+                        <a href="https://ggplot2-book.org/">ebook</a>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item statistics" data-category="statistics">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/ExperimentDesign.jpg">
+                    <figcaption>
+                        <div class="title">Design of experiments :
+                            statistical principles of research design and analysis</div>
+                        <div class="author">Robert O. Kuehl</div>
+                    </figcaption>
+                </figure>
+            </div>
+            
+            
+            <div class="item art" data-category="art">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/FigureDrawingDesignInvention.jpg">
+                    <figcaption>
+                        <div class="title">Figure Drawing: Design and Invention</div>
+                        <div class="author">Michael Hampton</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="item math" data-category="math">
+                <figure class="imghvr-fade">
+                    <img src="/assets/bookcovers/VisualGroupTheory.jpg">
+                    <figcaption>
+                        <div class="title">Visual Group Theory</div>
+                        <div class="author">Nathan C. Carter</div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <footer>© 2018 Fran James. All rights reserved.</footer>
+
+    <!-- links to scripts -->
+    <script src='assets/js/jquery.min.js'></script>
+    <script src='assets/js/isotope.pkgd.min.js'></script>
+    <script src='assets/js/packery-mode.pkgd.min.js'></script>
+    <script src='assets/js/isotope.js'></script>
+    <script src='assets/js/toggle.js'></script>
+
+</body>
+
+</html>
