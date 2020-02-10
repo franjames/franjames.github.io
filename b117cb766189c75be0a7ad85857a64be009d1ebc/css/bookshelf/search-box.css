@@ -1,0 +1,28 @@
+
+/* ---- input ---- */
+#search-box {
+      padding-bottom: 2vh;
+}
+
+input[type="text"] {
+  font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.45);
+  text-align: center;
+  color: hsla(230.5, 10.1%, 62.9%, 1);
+}
+
+/* ---- Search-box ----- */
+input {
+  border: 2px dotted #2EC2C2;
+  width: 40vw;
+  cursor: text;
+  overflow: hidden;
+  resize: vertical;
+  outline: none;
+}
+
+::placeholder { 
+  color: hsla(230.5, 10.1%, 62.9%, 1); 
+  font-size: calc((5vh + 0.5vw + 0.5vmin) * 0.45);
+}
+
+input:focus { background-color: hsla(230.5, 10.1%, 62.9%, 0.10); }
